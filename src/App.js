@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import react from "react";
+
+import React from "react";
 import "./App.css";
 import Search from "./components/Search";
 import Navbar from "./components/Navbar";
 import Results from "./components/Results";
 import Header from "./components/Header";
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import { Link } from "react-router-dom";
+
 import Saved from "./components/Saved";
 function App() {
   return (
